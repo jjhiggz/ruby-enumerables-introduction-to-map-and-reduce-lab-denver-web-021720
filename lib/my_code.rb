@@ -41,5 +41,5 @@ def reduce_to_total(source_array, starting_point)
     t += array[i]
     i=i+1
   end
-  return array
+  return t
 end

@@ -20,3 +20,12 @@ def map_to_double(array)
   end
   return array
 end
+
+def map_to_square(array)
+  i=0
+  while i<array.length
+    array[i]*=array[i]
+    i=i+1
+  end
+  return array
+end

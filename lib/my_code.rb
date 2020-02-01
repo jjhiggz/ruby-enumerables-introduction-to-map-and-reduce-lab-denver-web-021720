@@ -5,4 +5,5 @@ def map_to_negativize(array)
     array[i]=(-1)*array.length
     i=i+1
   end
+  return array
 end

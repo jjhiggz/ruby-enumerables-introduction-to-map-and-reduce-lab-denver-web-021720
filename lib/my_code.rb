@@ -45,6 +45,6 @@ def reduce_to_total(source_array, starting_point)
   end
   return t
   end
-source_array = [1,1,1]
-starting_point = 0
+  source_array = [1,2,3]
+  starting_point = 100
 puts reduce_to_total(source_array, starting_point)

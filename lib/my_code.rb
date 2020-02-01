@@ -43,3 +43,5 @@ def reduce_to_total(source_array, starting_point)
   end
   return t
 end
+
+puts reduce_to_total([2,2,2],0)

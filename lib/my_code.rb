@@ -38,7 +38,7 @@ def reduce_to_total(source_array, starting_point)
   end
   t=0
   while i<array.length
-    array[i]*=array[i]
+    t += array[i]
     i=i+1
   end
   return array
